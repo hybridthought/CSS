@@ -1,0 +1,30 @@
+html, body {
+	background: none;
+}
+
+#nav, #sidebar, #header h2 {
+	display: none;
+}
+
+#header {
+	float:none;
+}
+
+#header h1{
+	font-size: 24pt;
+	text-align: center;
+}
+
+#content {
+	width:100%;
+}
+
+#content .post {
+	padding: 30px;
+	font-size: 12pt;
+}
+
+/*This is a trick to put the url on the page for links*/
+#content .post a:after {
+	content: "(" attr(href) ")";
+}

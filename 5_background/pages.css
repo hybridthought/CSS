@@ -1,0 +1,12 @@
+#myDiv1 {
+	background-color: #777;
+	background-image: url('http://www.livingwithjohnchoi.com/blog/wp-content/uploads/2010/08/ryu_hadoken_pose.png');
+	background-repeat: no-repeat;
+	
+	/*X and Y offset*/
+	background-position: bottom right;
+	
+	border-left-style: inset;
+	border-color: #80F;
+	border-width: 10px;
+}

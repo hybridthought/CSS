@@ -1,0 +1,9 @@
+/*Ex and Em are Relative Data Measurement types.*/
+/*pc, px, in, mm are Absolute measurement types.*/
+/*% (percentages) takes up that much realestate of the page. */
+div{
+	background: #CCC;
+	margin: 30px auto;
+	height:300px;
+	width:40%;
+}

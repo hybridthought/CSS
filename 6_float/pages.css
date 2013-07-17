@@ -1,0 +1,10 @@
+#myDiv1{
+	float: left;
+	margin: 20px;
+}
+
+p {
+	width: 300px;
+	float:left;
+	margin: 10px;
+}

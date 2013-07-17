@@ -1,0 +1,102 @@
+/** 
+Regular CSS to setup the page.
+**/
+li a{
+	font-size: 2em;
+	margin-left: 45%; 
+}
+
+li{
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+/** 
+CSS3
+**/ 
+
+/**Grabs the root of the document. Usally HTML.**/ 
+:root{
+	background-color:pink;
+}                       
+
+/**Attribute Selector: Grabs All Id's That Start with the string "it" **/
+a[id^="it"]{        
+	font-weight: bold;
+}          
+
+/**Attribute Selector: Grabs All Id's That End with the string "6" **/
+a[id$="6"]{
+	text-decoration: line-through;
+}
+
+/**Attribute Selector: Grabs All Id's That Contain the string "em" **/
+a[id*="em"]{
+	font-style: italic;
+}
+
+/**Pseudo Selector: Grabs First LI*/
+li:first-child{
+	border-color: white;
+	border-width: 2px;
+	border-style: dashed;
+}
+
+/**Pseudo Selector: Grabs Last LI*/
+li:last-child{
+	border-color: yellow;
+	border-width: 2px;
+	border-style: dotted;
+}
+
+/**Pseudo Selector: Grabs All 2nd Li.*/
+li:nth-child(2){
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+}
+
+/**Pseudo Selector: Grabs All 2nd To Last Li Element.*/
+li:nth-last-child(2){
+	border-color: black;
+	border-width: 6px;
+	border-style: groove;
+}
+ 
+/**Pseudo Selector: Grabs All Even Li Tags**/
+li:nth-child(even){
+	background-color: blue;
+}
+
+/**Pseudo Selector: Grabs All Odd Li Tags**/
+li:nth-child(odd){
+	background-color: orange;
+}
+
+.link{
+	font-size: 7em; 
+}                       
+
+/**Selects 2nd element of class ITEM**/
+a.link:nth-of-type(2){
+	font-size: 3em;
+}        
+
+/**Selects 2nd element of class ITEM**/
+a.link:nth-last-of-type(2){
+	font-size: .5em;
+}
+
+/**Selects First LI element.**/
+li:first-of-type{
+	background-color: white;
+}
+
+/**Pseudo Selector: Allows you to style an element when its the curent target on the page (Anchor)**/
+#poll:target{
+	background-color: red;
+}
+#poll{
+	background-color: green;
+}
+	

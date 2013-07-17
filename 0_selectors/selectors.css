@@ -1,0 +1,125 @@
+/*Universal Selector*/
+/*Makes all elements on page "MS Trebuchet" font*/
+*{
+	font-family: Arial, "MS Trebuchet", sans-serif;
+}
+
+/*Sample Type Selector*/
+p{
+	background-color:black;
+	color:white;
+}
+
+/*Sample Type Selector*/
+/*Select all <h2> tags.*/
+h2{
+	color:blue;
+}
+
+/*Sample Type Selector*/
+/*Select all <h1> tags.*/
+h1{
+	color:green;
+}
+
+/*Sample Attribute Selector*/
+/*Select all <h2> tags with the id that have the world "headline" in itß.*/
+h2[id~="headline"]{
+	color:yellow;
+	background-color:blue;
+}
+
+/*Sample ID Selector*/
+/*Select all <h2> tags with the id of "headline news".*/
+h2[id="headline news"]{
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+/*Descendent Selector*/
+/*Select all <span> elements nested inside of a <p> tag.*/
+p span{
+	font-weight:bold;
+	color:pink;
+}
+
+/*Class Selector*/
+/*Select all elements who have there "class" attribute set to "important_headline"*/
+.important_headline{
+	color:red;
+	font-weight:bold;
+}
+
+/*Id Selector*/
+/*Select the unique elemtent with an id of "important"*/
+#important{
+	color:red;
+}
+
+/*Adjecent Selector*/ 
+/*Grabs only those <p> tags that come immediatly after an <h2>*/
+h2+p{
+	text-decoration:line-through;
+}
+
+/*Child Selector*/
+/*Select only those <li> elements nested in side of an <ol> tag.*/
+ol>li{
+	color:orange;
+}
+
+/*Child Selector*/
+/*Select only those <li> elements nested in side of an <ul> tag.*/
+ul>li{
+	color:yellow;
+	background-color:black;
+}
+
+/*Psuedo Class Selector*/
+/*Select all first appearances of <li> in a group*/
+li:first-child{
+	background-color:green;
+}
+
+
+/*Psuedo Class Selector*/
+/*Makes link you click on to green*/
+a:active{
+	background-color:green;
+}
+
+/*Psuedo Class Selector*/
+/*Makes all links purple*/
+a:link{
+	background-color:purple;
+}
+
+/*Psuedo Class Selector*/
+/*Select element where mouse is currently over*/
+a:hover{
+	background-color:pink;
+	font-weight:bold;
+}
+
+/*Psuedo Class Selector*/
+/*Select element that has browsers focus*/
+a:focus{
+	background-color:red;
+	font-weight:bold;
+}
+
+/*Id Selector*/
+/*Select the unique elemtent with an id of "revolution"*/
+#revolution{
+	font-size: 200px;
+	font-weight: bold;
+	background-color:black;
+	color:white;
+}
+
+/*Deeper decendent/Attribute Selector Mix*/
+p span a[href="www.love.com"]{
+	background-color:white;
+	color:red;
+}
+

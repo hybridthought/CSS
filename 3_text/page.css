@@ -1,0 +1,9 @@
+
+#myParagraph{
+	/*adjusts distance between lines of text)*/
+	line-height: 1em;
+	letter-spacing: 1em;
+	word-spacing: 3em;
+	text-align: right;
+	white-space: nowrap;
+}

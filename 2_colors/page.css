@@ -1,0 +1,12 @@
+#myDiv1{
+	/*CCS Function for rhb colors*/
+	/*background-color: rgb(0,255,200);*/
+	
+	/*Hex value color notation*/
+	/* The # inidicates its a hex value. #RRGGBB*/
+	/* In hex every character can have 1-16 values.*/
+	/* [0, 1, 2 ,3 ,4 5, 6, 7, 8, 9, A, B, C, D, E, F]
+	/* First 2 is red, next 2 are green, last 2 are blue*/
+	/* You can do short hand by omiting one character for each color, and browser will expand automaticlly to 0*/
+	background-color: #195;
+}

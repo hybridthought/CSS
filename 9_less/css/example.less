@@ -1,0 +1,46 @@
+/*Example Of Creating Variables*/
+@bgColor: #BEADCC;
+@borderColor: #776C7F;       
+@divBgColor: #EFD9FF;
+@fontColor: #67467F;
+
+/*Example Of A Method With Defaults*/
+.border (@radius: 5px, @color: #000000, @width:10px, @style: solid) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+   border-color: @color;
+   border-style: @style;
+   border-width: @width;   
+}
+   
+.sample1{ 
+	/*Example Style That Calls Method With Few Arguments*/ 
+	.border("", @borderColor, "", dashed);
+	background-color: @divBgColor;
+	color: @fontColor;
+    h1{
+	
+	}
+	
+	p{
+		font-size: 2em;
+		text-decoration: overline;
+	}
+ }
+  
+.sample2{
+    /*Example Style that calls methods with all arguments.*/
+  	.border(30px, borderColor, 5px, dotted); 
+	background-color: @divBgColor;
+	color: @fontColor;
+	
+	h1{
+
+	}
+
+	p{
+		font-size: 4em;
+		text-decoration: underline;
+	}
+ }

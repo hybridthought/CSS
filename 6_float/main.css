@@ -1,0 +1,30 @@
+body {
+	background: #EEE;
+	font-family: Arial, helvetica, sans-serif;	
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	height: 400px;
+	background-color: #888;
+}
+
+#myDiv1 {
+	width: 150px;
+	height: 100px;
+	background-color:orange;
+	border: 10px dotted black;
+}
+
+#text1 {
+	border-style: dashed;
+	border: 5px solid blue;
+}
+
+#text2 {
+	border-style: dashed;
+	border: 5px solid yellow;
+}

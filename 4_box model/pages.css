@@ -1,0 +1,28 @@
+#myDiv1 {
+	background:#FF9900;
+	width:300px;
+	height: 300px;
+	
+	/*MARGIN: Example of specifying individual margins*/
+	/*
+	margin-left:25px;
+	margin-top:25px;
+	*/
+	
+	/*Example of settip top, right, bottom, left margins in one line*/
+	/*margin: 25px 0px 0px 25px;*/
+	
+	/*Example of simple margin, first value is top+bottom, second is left+right*/
+	margin: 25px 50px;
+	
+	/*PADDING: This notation is top+bottom and left+right.*/
+	padding: 0px 200px;
+	
+	position:absolute;
+	top: 25px;
+	right: 25px;
+}
+
+#wrapper {
+	position:relative;
+}

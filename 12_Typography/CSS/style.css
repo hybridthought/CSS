@@ -1,0 +1,77 @@
+.funkyShadow{ 
+	color: #CCC;
+	font-size: 4em;
+	text-align: center;
+	text-shadow: orange -3px -3px 5px,
+				 rgba(0,0,0, 1) 3px 3px 5px,
+				 pink 20px 20px 2px;
+}
+
+
+.coolShadow{ 
+	color: #CCC;
+	font-size: 4em; 
+	text-align: center;
+	text-shadow: #000 -1px 1px 1px;
+}
+
+.textStroke{ 
+	color: #CCC;
+	font-size: 4em;
+	text-align: center;
+	text-shadow: #000 5px 5px 5px;
+	-webkit-text-stroke: 3px orange;
+	-webkit-text-fill-color: transparent;
+}
+
+.simStroke{ 
+	color: #FFF;
+	font-size: 4em;
+	text-align: center;
+	text-shadow: 
+		#000 -1px -1px 0px,
+		#000 1px -1px 0px,
+		#555 -2px 2px 0px,
+		#555 2px 2px 0px;
+}
+
+.reflect{ 
+	font-size: 4em;
+	text-align: center;
+	margin-bottom: 30em;
+	-webkit-box-reflect: below 0px -webkit-gradient(
+													   linear,
+													   left top, left bottom,
+													   from(transparent),
+													   color-stop(0.2, transparent),
+													   to(rgba(255,255,255,0.2))
+													 );
+}
+
+p.clip{
+	width:400px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: clip;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+p.wordwrap{
+	width:400px;
+	word-wrap: break-word;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+p.ellipsis{
+	width:400px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
